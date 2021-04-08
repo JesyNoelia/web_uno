@@ -6,11 +6,37 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: dimgrey;
+}
+header div:first-child{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+header div:nth-child(2){
+    background-color: black;
+    
+}
 header div nav ul li{
     list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    width: calc(20% - 14px);
+    padding: 20px 0px;
+    
+    
+
 }
 
 header div nav ul li a{
     text-decoration: none;
+    background-color: chartreuse;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+
 
 }
