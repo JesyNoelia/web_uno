@@ -1,0 +1,16 @@
+/* Reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header div nav ul li{
+    list-style: none;
+}
+
+header div nav ul li a{
+    text-decoration: none;
+
+}
