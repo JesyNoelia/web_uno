@@ -76,7 +76,7 @@ header div h1{
     font-size: 5vw;
     text-align: center;
     width: 100;
-    padding: 5%;
+    padding: 2%;
 }
 
 .cajaservicios{
@@ -86,8 +86,6 @@ header div h1{
 
 .cajaservicios h2 {
     text-align: center;
-    
-    
 }
 .servicio p{
     font-size: 1em;
@@ -117,10 +115,6 @@ header div h1{
     padding: 5%;
     font-size: 2em;
 }
-   
-    
-   
-
 
 @media(min-width: 700px){
     .menu{
@@ -137,11 +131,8 @@ header div h1{
     }
     .menu nav ul li a{
         display: block;
-        padding: 5%;
+        padding: 10%;
     }
-    
-    
-  
 }
 
 @media(min-width: 1024px){
@@ -150,6 +141,5 @@ header div h1{
         flex-direction: row;
         justify-content: space-between;
         width: auto;
-        
     }
 }
