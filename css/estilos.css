@@ -87,14 +87,17 @@ header div h1{
 .cajaservicios h2 {
     text-align: center;
 }
-.servicio p{
+.servicio p, .cajapersonal p{
     font-size: 1em;
     margin: 0 20%;
     text-align: center;
 }
+.cajapersonal h3{
+    text-align: center;
+}
 
 
-.servicio img{
+.servicio img, .persona1 img{
     align-items: center;
     border: 10px solid white;
     align-items: center;
@@ -105,6 +108,10 @@ header div h1{
     margin: 10% auto;
     display: block;
     
+}
+
+.persona1 img{
+    opacity: 1;
 }
 .cajaservicios img:hover{
     transform: scale(1.2);
@@ -132,6 +139,11 @@ header div h1{
     .menu nav ul li a{
         display: block;
         padding: 10%;
+    }
+    .cajapersonal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 
