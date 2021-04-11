@@ -69,10 +69,52 @@ header div h1{
     top: 45%;
     text-shadow: 5px 5px 8px #566573;
 }
-   
-    
-   
 
+.cabeceraservicios h2, .nuestroequipo h2{
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    width: 100;
+    padding: 2%;
+}
+
+.cajaservicios{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.cajaservicios h2 {
+    text-align: center;
+}
+.servicio p{
+    font-size: 1em;
+    margin: 0 20%;
+    text-align: center;
+}
+
+
+.servicio img{
+    align-items: center;
+    border: 10px solid white;
+    align-items: center;
+    border-radius: 20px;
+    transition: transform 0.5s ease-in-out 0.5s;
+    box-shadow: #4c4646 5px 5px 10px;
+    opacity: 0.8;
+    margin: 10% auto;
+    display: block;
+    
+}
+.cajaservicios img:hover{
+    transform: scale(1.2);
+    opacity: 1.0;
+}
+
+.servicio h2{
+    padding: 5%;
+    font-size: 2em;
+}
 
 @media(min-width: 700px){
     .menu{
@@ -90,7 +132,14 @@ header div h1{
     .menu nav ul li a{
         display: block;
         padding: 10%;
-            
     }
-  
+}
+
+@media(min-width: 1024px){
+    .cajaservicios{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: auto;
+    }
 }
